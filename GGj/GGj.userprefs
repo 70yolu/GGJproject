@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../unityMuseumPlugins/Assets/0my/iOS02B.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Title\Title.cs">
     <Files>
-      <File FileName="../../unityMuseumPlugins/Assets/0my/iOS02B.js" Line="70" Column="47" />
+      <File FileName="Assets\Script\Title\Title.cs" Line="7" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
