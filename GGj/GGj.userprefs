@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\EnemyTV_AntenaRotate.js">
     <Files>
-      <File FileName="Assets\Script\EnemyTV_AntenaRotate.js" Line="9" Column="36" />
+      <File FileName="Assets\Script\EnemyTV_AntenaRotate.js" Line="10" Column="1" />
+      <File FileName="Assets\Script\EnemyTV_FootMove.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\EnemyTV_FootMove2.cs" Line="18" Column="42" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
