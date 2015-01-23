@@ -1,0 +1,97 @@
+fileFormatVersion: 2
+guid: c320f0187c75bc44a91eb3b63fe1f654
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 005339_07139_facilligreen
+    100004: 005339_07139_ground
+    100006: 005339_07139_road
+    100008: 005339_07139_roadstrip
+    100010: 005339_07139_walk
+    100012: 005339_07139_wall
+    100014: 005339_07139_water
+    400000: //RootNode
+    400002: 005339_07139_facilligreen
+    400004: 005339_07139_ground
+    400006: 005339_07139_road
+    400008: 005339_07139_roadstrip
+    400010: 005339_07139_walk
+    400012: 005339_07139_wall
+    400014: 005339_07139_water
+    2300000: 005339_07139_facilligreen
+    2300002: 005339_07139_ground
+    2300004: 005339_07139_road
+    2300006: 005339_07139_roadstrip
+    2300008: 005339_07139_walk
+    2300010: 005339_07139_wall
+    2300012: 005339_07139_water
+    3300000: 005339_07139_facilligreen
+    3300002: 005339_07139_ground
+    3300004: 005339_07139_road
+    3300006: 005339_07139_roadstrip
+    3300008: 005339_07139_walk
+    3300010: 005339_07139_wall
+    3300012: 005339_07139_water
+    4300000: 005339_07139_facilligreen
+    4300002: 005339_07139_ground
+    4300004: 005339_07139_road
+    4300006: 005339_07139_roadstrip
+    4300008: 005339_07139_walk
+    4300010: 005339_07139_wall
+    4300012: 005339_07139_water
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
