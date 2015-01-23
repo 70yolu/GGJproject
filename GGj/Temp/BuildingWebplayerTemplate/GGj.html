@@ -15,8 +15,8 @@
 		<script type="text/javascript">
 		<!--
 			var config = {
-				width: 960, 
-				height: 600,
+				width: 1280, 
+				height: 720,
 				params: { enableDebugging:"0" }
 				
 			};
@@ -58,6 +58,30 @@
 				});
 				u.initPlugin(jQuery("#unityPlayer")[0], "GGj.unity3d");
 			});
+			
+	function alertUnityObject(str){
+       	//alert(str);
+    	console.log("alertUnityObject:" + str);
+    }
+	function init(){
+    	console.log("init");
+    	showVideo("R7ttn0eVhQg","youtube");
+    }
+    
+
+function showVideo(videoId, source){
+	console.log("showVideo:" + videoId);
+  $("#logosVideo").show();
+  $("#cubeVideo").show();
+  $("#video").show();
+  var el = document.getElementById("video");
+  //if(source == "youtube"){
+    var html = '<iframe width="560" height="315" id="ytVideo" src="https://www.youtube.com/embed/';
+	html += videoId + '?wmode=opaque&autoplay=1&enablejsapi=1" frameborder="0" allowfullscreen></iframe>';
+  //}
+  el.innerHTML = html 
+}
+
 		-->
 		</script>
 		<style type="text/css">
@@ -112,11 +136,33 @@
 			height: 600px;
 			width: 960px;
 		}
+		
+#logosVideo {
+  position:absolute;
+  -webkit-perspective: 700px;
+  perspective: 700px; 
+}
+#cubeVideo {
+  display: block;  position: relative;  margin: 30px auto;
+  height: 315px;  width: 560px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform:  rotateY(30deg) rotateZ(0.5deg) rotateX(0.5deg);
+  transform-style: preserve-3d;
+  transform:  rotateY(30deg) rotateZ(0.5deg) rotateX(0.5deg);
+}
+
 		-->
 		</style>
 	</head>
-	<body>
+	<body>test2015
 		<p class="header"><span>Unity Web Player | </span>GGj</p>
+			
+		<div id="logosVideo">
+		  <div id="cubeVideo">
+			<div id="video" style="opacity:0.8;"></div>
+		  </div>
+		</div>
+
 		<div class="content">
 			<div id="unityPlayer">
 				<div class="missing">
