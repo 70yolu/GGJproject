@@ -69,17 +69,56 @@
     }
     
 
-function showVideo(videoId, source){
-	console.log("showVideo:" + videoId);
+function showVideo(_params){
+
+  console.log("showVideo:" + videoId);
+  var param = _params.split(",");
+  var videoId = param[0];
+  var start = param[1];
+  var end = param[2];
+  var top = param[3];
+  var left = param[4];
+
   $("#logosVideo").show();
   $("#cubeVideo").show();
   $("#video").show();
+
+  var element = document.getElementById("logosVideo"); 
+  element.style.position = 'absolute'; 
+  element.style.left = left + 'px'; 
+  element.style.top = top + 'px'; 
+
   var el = document.getElementById("video");
   //if(source == "youtube"){
     var html = '<iframe width="560" height="315" id="ytVideo" src="https://www.youtube.com/embed/';
-	html += videoId + '?wmode=opaque&autoplay=1&enablejsapi=1" frameborder="0" allowfullscreen></iframe>';
+	html += videoId + '?wmode=opaque&autoplay=1&enablejsapi=1&autohide=0&version=3';
+	if(start > 0 ) html += '&start='+start
+	if(end > 0) html += '&end='+end ;
+//	html += '&controls=1';
+	html += '&controls=0';
+//	html += '&showinfo=0&loop=1&playlist=' + videoId;
+	html += ' frameborder="0" allowfullscreen></iframe>';
   //}
   el.innerHTML = html 
+//    var div = document.getElementById("video");
+//    var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+//    iframe.postMessage('{"event":"command","func":"loop","args":"1"}', '*');
+
+
+
+}
+
+function killVideo(){
+	var state = 'hide';
+    // if state == 'hide', hide. Else: show video
+    var div = document.getElementById("video");
+    var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+    div.style.display = state == 'hide' ? 'none' : '';
+    func = state == 'hide' ? 'pauseVideo' : 'playVideo';
+    iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+    $("#video").hide();
+    $("#cubeVideo").hide();
+    $("#logosVideo").hide();
 }
 
 		-->
@@ -92,53 +131,27 @@ function showVideo(videoId, source){
 			color: black;
 			text-align: center;
 		}
-		a:link, a:visited {
-			color: #000;
-		}
-		a:active, a:hover {
-			color: #666;
-		}
-		p.header {
-			font-size: small;
-		}
-		p.header span {
-			font-weight: bold;
-		}
-		p.footer {
-			font-size: x-small;
-		}
-		div.content {
-			margin: auto;
-			width: 960px;
-		}
-		div.broken,
-		div.missing {
+		a:link, a:visited {			color: #000;		}
+		a:active, a:hover {			color: #666;		}
+		p.header {			font-size: small;		}
+		p.header span {			font-weight: bold;		}
+		p.footer {			font-size: x-small;		}
+		div.content {			margin: auto;			width: 960px;		}
+		div.broken,		div.missing {
 			margin: auto;
 			position: relative;
 			top: 50%;
 			width: 193px;
 		}
 		div.broken a,
-		div.missing a {
-			height: 63px;
-			position: relative;
-			top: -31px;
-		}
+		div.missing a {		height: 63px;			position: relative;			top: -31px;		}
 		div.broken img,
-		div.missing img {
-			border-width: 0px;
-		}
-		div.broken {
-			display: none;
-		}
-		div#unityPlayer {
-			cursor: default;
-			height: 600px;
-			width: 960px;
-		}
+		div.missing img {	border-width: 0px;		}
+		div.broken {		display: none;		}
+		div#unityPlayer {	cursor: default;		height: 600px;			width: 960px;		}
 		
 #logosVideo {
-  position:absolute;
+  position:absolute; 
   -webkit-perspective: 700px;
   perspective: 700px; 
 }
