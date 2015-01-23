@@ -60,7 +60,8 @@
      <Compile Include="Assets\UnityChan\Scripts\SpringManager.cs" />
      <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
-     <Compile Include="Assets\takayama\SDUnityChanView.cs" />
+     <Compile Include="Assets\takayama\SDUnityChanView\Scripts\SDUnityChanController.cs" />
+     <Compile Include="Assets\takayama\SDUnityChanView\Scripts\SDUnityChanView.cs" />
      <Compile Include="Assets\tanaka\testVideo.cs" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
