@@ -538,7 +538,7 @@ Transform:
   - {fileID: 1922436779}
   - {fileID: 1321551306}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
 --- !u!95 &36347529
 Animator:
   serializedVersion: 3
@@ -3569,7 +3569,7 @@ Transform:
   - {fileID: 784477989}
   - {fileID: 93408106}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!95 &404060618
 Animator:
   serializedVersion: 3
@@ -4694,7 +4694,7 @@ Transform:
   - {fileID: 748288769}
   - {fileID: 123185289}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 8
 --- !u!95 &577928210
 Animator:
   serializedVersion: 3
@@ -11121,7 +11121,7 @@ Transform:
   - {fileID: 1029833564}
   - {fileID: 1549456916}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 2
 --- !u!95 &1331279193
 Animator:
   serializedVersion: 3
@@ -12648,7 +12648,7 @@ Transform:
   - {fileID: 773362539}
   - {fileID: 627993233}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
 --- !u!95 &1493989545
 Animator:
   serializedVersion: 3
@@ -12814,7 +12814,7 @@ Transform:
   - {fileID: 872380963}
   - {fileID: 1154703621}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 6
 --- !u!95 &1511539348
 Animator:
   serializedVersion: 3
@@ -12865,7 +12865,7 @@ Transform:
   - {fileID: 1349929351}
   - {fileID: 773773192}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
 --- !u!95 &1516089595
 Animator:
   serializedVersion: 3
@@ -13893,6 +13893,7 @@ GameObject:
   - 92: {fileID: 1673914239}
   - 124: {fileID: 1673914238}
   - 81: {fileID: 1673914237}
+  - 45: {fileID: 1673914242}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -13965,6 +13966,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
+--- !u!45 &1673914242
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673914236}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 154f3b5d5f1248d4fad33795491ad9d6, type: 2}
 --- !u!1 &1693670956
 GameObject:
   m_ObjectHideFlags: 0
@@ -14789,7 +14798,7 @@ Transform:
   - {fileID: 417231611}
   - {fileID: 813258489}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
 --- !u!95 &1784230306
 Animator:
   serializedVersion: 3
@@ -15299,7 +15308,7 @@ Transform:
   - {fileID: 258710871}
   - {fileID: 2038155971}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 7
 --- !u!95 &1851531894
 Animator:
   serializedVersion: 3
