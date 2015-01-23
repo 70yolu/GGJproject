@@ -76,21 +76,37 @@ function showVideo(_params){
   var videoId = param[0];
   var start = param[1];
   var end = param[2];
-  var top = param[3];
-  var left = param[4];
+  var width = param[3];
+  var height = param[4];
+  var top = param[5];
+  var left = param[6];
+  myVideoMode = param[7];
 
   $("#logosVideo").show();
-  $("#cubeVideo").show();
-  $("#video").show();
+  var el = document.getElementById("video");
+
+
+  if (myVideoMode == 0){
+    $("#cubeVideo").hide();
+    $("#video").hide();
+    $("#cubeVideo0").show();
+    $("#video0").show();
+    var el = document.getElementById("video0");
+  }else{
+    $("#cubeVideo0").hide();
+    $("#video0").hide();
+    $("#cubeVideo").show();
+    $("#video").show();
+  }
 
   var element = document.getElementById("logosVideo"); 
   element.style.position = 'absolute'; 
   element.style.left = left + 'px'; 
   element.style.top = top + 'px'; 
 
-  var el = document.getElementById("video");
   //if(source == "youtube"){
-    var html = '<iframe width="560" height="315" id="ytVideo" src="https://www.youtube.com/embed/';
+//    var html = '<iframe width="560" height="315" id="ytVideo" src="https://www.youtube.com/embed/';
+    var html = '<iframe width="'+width+'" height="'+height+'" id="ytVideo" src="https://www.youtube.com/embed/';
 	html += videoId + '?wmode=opaque&autoplay=1&enablejsapi=1&autohide=0&version=3';
 	if(start > 0 ) html += '&start='+start
 	if(end > 0) html += '&end='+end ;
@@ -111,13 +127,19 @@ function showVideo(_params){
 function killVideo(){
 	var state = 'hide';
     // if state == 'hide', hide. Else: show video
-    var div = document.getElementById("video");
+    if(myVideoMode == 0){ 
+      var div = document.getElementById("video0");
+	}else{
+      var div = document.getElementById("video");
+	}
     var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
     div.style.display = state == 'hide' ? 'none' : '';
     func = state == 'hide' ? 'pauseVideo' : 'playVideo';
     iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
     $("#video").hide();
+    $("#video0").hide();
     $("#cubeVideo").hide();
+    $("#cubeVideo0").hide();
     $("#logosVideo").hide();
 }
 
@@ -155,6 +177,7 @@ function killVideo(){
   -webkit-perspective: 700px;
   perspective: 700px; 
 }
+
 #cubeVideo {
   display: block;  position: relative;  margin: 30px auto;
   height: 315px;  width: 560px;
@@ -163,6 +186,15 @@ function killVideo(){
   transform-style: preserve-3d;
   transform:  rotateY(30deg) rotateZ(0.5deg) rotateX(0.5deg);
 }
+#cubeVideo0 {
+  display: block;  position: relative;  margin: 30px auto;
+  height: 315px;  width: 560px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform:  rotateY(0deg) rotateZ(0deg) rotateX(0deg);
+  transform-style: preserve-3d;
+  transform:  rotateY(0deg) rotateZ(0deg) rotateX(0deg);
+}
+
 
 		-->
 		</style>
@@ -173,6 +205,9 @@ function killVideo(){
 		<div id="logosVideo">
 		  <div id="cubeVideo">
 			<div id="video" style="opacity:0.8;"></div>
+		  </div>
+		  <div id="cubeVideo0">
+			<div id="video0" style="opacity:0.8;"></div>
 		  </div>
 		</div>
 
