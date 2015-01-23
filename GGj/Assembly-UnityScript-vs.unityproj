@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\EnemyTV_AntenaRotate.js" />
+     <Compile Include="Assets\Script\EnemyTV_FootMove.js" />
      <Compile Include="Assets\Zenrin\UnityScript\ChangeShader.js" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />

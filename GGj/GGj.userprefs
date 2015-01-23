@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../unityMuseumPlugins/Assets/0my/iOS02B.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\EnemyTV_AntenaRotate.js">
     <Files>
-      <File FileName="../../unityMuseumPlugins/Assets/0my/iOS02B.js" Line="70" Column="47" />
+      <File FileName="Assets\Script\EnemyTV_AntenaRotate.js" Line="9" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
