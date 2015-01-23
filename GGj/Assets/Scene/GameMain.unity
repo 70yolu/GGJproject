@@ -537,7 +537,11 @@ Transform:
   - {fileID: 2117112525}
   - {fileID: 1922436779}
   - {fileID: 1321551306}
+<<<<<<< HEAD
   m_Father: {fileID: 1585483630}
+=======
+  m_Father: {fileID: 0}
+>>>>>>> Map
   m_RootOrder: 0
 --- !u!95 &36347529
 Animator:
@@ -3777,7 +3781,11 @@ Transform:
   - {fileID: 748177386}
   - {fileID: 784477989}
   - {fileID: 93408106}
+<<<<<<< HEAD
   m_Father: {fileID: 1585483630}
+=======
+  m_Father: {fileID: 0}
+>>>>>>> Map
   m_RootOrder: 4
 --- !u!95 &404060618
 Animator:
@@ -4982,7 +4990,11 @@ Transform:
   - {fileID: 2046431552}
   - {fileID: 748288769}
   - {fileID: 123185289}
+<<<<<<< HEAD
   m_Father: {fileID: 1585483630}
+=======
+  m_Father: {fileID: 0}
+>>>>>>> Map
   m_RootOrder: 8
 --- !u!95 &577928210
 Animator:
@@ -11752,7 +11764,11 @@ Transform:
   - {fileID: 1021096435}
   - {fileID: 1029833564}
   - {fileID: 1549456916}
+<<<<<<< HEAD
   m_Father: {fileID: 1585483630}
+=======
+  m_Father: {fileID: 0}
+>>>>>>> Map
   m_RootOrder: 2
 --- !u!95 &1331279193
 Animator:
@@ -13349,7 +13365,11 @@ Transform:
   - {fileID: 1729586841}
   - {fileID: 773362539}
   - {fileID: 627993233}
+<<<<<<< HEAD
   m_Father: {fileID: 1585483630}
+=======
+  m_Father: {fileID: 0}
+>>>>>>> Map
   m_RootOrder: 3
 --- !u!95 &1493989545
 Animator:
@@ -13515,7 +13535,11 @@ Transform:
   - {fileID: 1440497804}
   - {fileID: 872380963}
   - {fileID: 1154703621}
+<<<<<<< HEAD
   m_Father: {fileID: 1585483630}
+=======
+  m_Father: {fileID: 0}
+>>>>>>> Map
   m_RootOrder: 6
 --- !u!95 &1511539348
 Animator:
@@ -13566,7 +13590,11 @@ Transform:
   - {fileID: 145359506}
   - {fileID: 1349929351}
   - {fileID: 773773192}
+<<<<<<< HEAD
   m_Father: {fileID: 1585483630}
+=======
+  m_Father: {fileID: 0}
+>>>>>>> Map
   m_RootOrder: 1
 --- !u!95 &1516089595
 Animator:
@@ -14632,6 +14660,7 @@ GameObject:
   - 92: {fileID: 1673914239}
   - 124: {fileID: 1673914238}
   - 81: {fileID: 1673914237}
+  - 45: {fileID: 1673914242}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -14703,7 +14732,19 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 0
+=======
+  m_RootOrder: 9
+--- !u!45 &1673914242
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673914236}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 154f3b5d5f1248d4fad33795491ad9d6, type: 2}
+>>>>>>> Map
 --- !u!1 &1693670956
 GameObject:
   m_ObjectHideFlags: 0
@@ -15527,7 +15568,11 @@ Transform:
   - {fileID: 944129188}
   - {fileID: 417231611}
   - {fileID: 813258489}
+<<<<<<< HEAD
   m_Father: {fileID: 1585483630}
+=======
+  m_Father: {fileID: 0}
+>>>>>>> Map
   m_RootOrder: 5
 --- !u!95 &1784230306
 Animator:
@@ -16107,7 +16152,11 @@ Transform:
   - {fileID: 1602946486}
   - {fileID: 258710871}
   - {fileID: 2038155971}
+<<<<<<< HEAD
   m_Father: {fileID: 1585483630}
+=======
+  m_Father: {fileID: 0}
+>>>>>>> Map
   m_RootOrder: 7
 --- !u!95 &1851531894
 Animator:
