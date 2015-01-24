@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\EnemyTV_BodyRotate2_fast.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\EnemyTV_BodyRotate2_Slow.cs">
     <Files>
-      <File FileName="Assets\Script\EnemyTV_BodyRotate2.cs" Line="25" Column="48" />
+      <File FileName="Assets\Script\EnemyTV_BodyRotate2.cs" Line="17" Column="14" />
       <File FileName="Assets\Script\EnemyTV_BodyRotate.js" Line="10" Column="1" />
       <File FileName="Assets\Script\EnemyTV_Destroy.js" Line="25" Column="1" />
       <File FileName="Assets\Script\EnemyTV_FootMove2.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\EnemyTV_BodyRotate2_fast.cs" Line="18" Column="44" />
+      <File FileName="Assets\Script\EnemyTV_BodyRotate2_Slow.cs" Line="23" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
