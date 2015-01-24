@@ -4,4 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scene/GamePlay.unity
+  - enabled: 0
+    path: Assets/Scene/Title.unity
+  - enabled: 0
+    path: Assets/Scene/CreateScene/tanaka.unity
+  - enabled: 1
+    path: Assets/Scene/CreateScene/tanaka.unity
+=======
   m_Scenes: []
+>>>>>>> 15476b0805f569dd814c6d64551d0ecea772cca4
