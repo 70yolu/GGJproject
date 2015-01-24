@@ -4,6 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Scenes:
   - enabled: 1
     path: Assets/tanaka/videoTest.unity
+=======
+  m_Scenes: []
+>>>>>>> 56cf81c7614a5e3992969b50ad9c6efe5024690e
