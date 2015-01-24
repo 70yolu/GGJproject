@@ -23,35 +23,13 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-<<<<<<< HEAD
-															GlobalSection(MonoDevelopProperties) = preSolution
+																GlobalSection(MonoDevelopProperties) = preSolution
 =======
-							GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> e96a24720907a540bf6aaa55b9650189b0d34a1d
-=======
-										GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> ee5d05f9f9292b40810305a83c02b6c08f24f4c7
-		StartupItem = Assembly-CSharp.csproj
-		Policies = $0
-		$0.TextStylePolicy = $1
-		$1.inheritsSet = null
-		$1.scope = text/x-csharp
-		$0.CSharpFormattingPolicy = $2
-		$2.inheritsSet = Mono
-		$2.inheritsScope = text/x-csharp
-		$2.scope = text/x-csharp
-		$0.TextStylePolicy = $3
-		$3.FileWidth = 120
-		$3.TabWidth = 4
-		$3.EolMarker = Unix
-		$3.inheritsSet = Mono
-		$3.inheritsScope = text/plain
-		$3.scope = text/plain
-	EndGlobalSection
-											GlobalSection(MonoDevelopProperties) = preSolution
+								GlobalSection(MonoDevelopProperties) = preSolution
 =======
 				GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> d2c0b7e29c9a875a96e552b19c800b78817b47ef
+>>>>>>> Map
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
