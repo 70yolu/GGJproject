@@ -82,6 +82,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 133134503}
+  - 114: {fileID: 133134504}
   m_Layer: 5
   m_Name: GameOverView
   m_TagString: Untagged
@@ -105,6 +106,17 @@ Transform:
   - {fileID: 791864852}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &133134504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 133134502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5672071f7ebe3d449808207b371e1b8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!115 &239601874
 MonoScript:
   m_ObjectHideFlags: 0
@@ -169,7 +181,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &645935037
 RectTransform:
   m_ObjectHideFlags: 0
@@ -288,7 +300,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 749987870}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 133134504}
+        m_MethodName: OnRetryBtn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &749987870
@@ -557,7 +581,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 808960035}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 133134504}
+        m_MethodName: OnTitleBtn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &808960035
@@ -1901,7 +1937,7 @@ Camera:
     height: 1
   near clip plane: .300000012
   far clip plane: 100
-  field of view: 120.069649
+  field of view: 115.957596
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -2001,7 +2037,7 @@ Camera:
     height: 1
   near clip plane: .300000012
   far clip plane: 100
-  field of view: 120.069649
+  field of view: 120.708839
   orthographic: 0
   orthographic size: 5
   m_Depth: 2
