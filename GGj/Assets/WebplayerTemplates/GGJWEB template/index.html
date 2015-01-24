@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
@@ -81,9 +80,10 @@ function showVideo(_params){
   var end = param[2];
   var width = param[3];
   var height = param[4];
-  var top = param[5];
-  var left = param[6];
+  var left = param[5];
+  var top = param[6];
   myVideoMode = param[7];
+  var opacity = param[8];
 
   $("#logosVideo").show();
   var el = document.getElementById("video");
@@ -100,7 +100,9 @@ function showVideo(_params){
     $("#video0").hide();
     $("#cubeVideo").show();
     $("#video").show();
+
   }
+  el.style.opacity = opacity; 
 
   var element = document.getElementById("logosVideo"); 
   element.style.position = 'absolute'; 
@@ -198,6 +200,7 @@ function killVideo(){
 			cursor: default;
 			height: 720px;
 			width: 1280px;
+			z-index:12;
 		}
 
 #logosVideo {
@@ -231,15 +234,15 @@ function killVideo(){
 
 		<div id="logosVideo">
 		  <div id="cubeVideo">
-			<div id="video" style="opacity:0.8;"></div>
+			<div id="video" style="opacity:0.8;z-index:1"></div>
 		  </div>
 		  <div id="cubeVideo0">
 			<div id="video0" style="opacity:0.8;"></div>
 		  </div>
 		</div>
 
-		<div class="content">
-			<div id="unityPlayer">
+		<div class="content" style="margin-left:10px;z-index:10">
+			<div id="unityPlayer" style="z-index:11">
 				<div class="missing">
 					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
 						<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
