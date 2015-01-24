@@ -49,6 +49,7 @@
      <Compile Include="Assets\Script\EnemyTV_AntenaRotate.js" />
      <Compile Include="Assets\Script\EnemyTV_AntenaRotateFast.js" />
      <Compile Include="Assets\Script\EnemyTV_AntenaRotateSlow.js" />
+     <Compile Include="Assets\Script\EnemyTV_BodyRotate.js" />
      <Compile Include="Assets\Script\EnemyTV_Destroy.js" />
      <Compile Include="Assets\Script\EnemyTV_FootMove.js" />
      <Compile Include="Assets\Script\EnemyTV_FootRatate.js" />

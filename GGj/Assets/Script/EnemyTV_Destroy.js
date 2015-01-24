@@ -23,7 +23,7 @@ function Update () {
 		if(killTimer <= 0.0) {
 			//エフェクトを出しつつ、自身のゲームオブジェクトを破壊
 			Instantiate(explosionPrefab, transform.position, transform.rotation);
-			Destroy(GameObject);
+			Destroy(gameObject);
 		}
 	}
 }

@@ -46,6 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\EnemyTV_BodyRotate2.cs" />
+     <Compile Include="Assets\Script\EnemyTV_BodyRotate2_Slow.cs" />
+     <Compile Include="Assets\Script\EnemyTV_BodyRotate2_fast.cs" />
      <Compile Include="Assets\Script\EnemyTV_FootMove2.cs" />
      <Compile Include="Assets\Script\Title\City\CityRoote.cs" />
      <Compile Include="Assets\Script\Title\Title.cs" />
