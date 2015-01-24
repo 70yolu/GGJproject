@@ -7184,8 +7184,8 @@ ParticleSystem:
           inSlope: 0
           outSlope: 0
           tangentMode: 0
-        - time: 1
-          value: .457489878
+        - time: .991676569
+          value: .206477731
           inSlope: -2
           outSlope: -2
           tangentMode: 0
@@ -7235,7 +7235,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
-    gravityModifier: 1.08000004
+    gravityModifier: .75
     inheritVelocity: 0
     maxNumParticles: 1000
   ShapeModule:
@@ -8051,7 +8051,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 698526521}
-  m_LocalRotation: {x: -.707106769, y: 0, z: 0, w: .707106769}
+  m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
   m_LocalPosition: {x: 4.42619991, y: 2.49850011, z: 1.1961}
   m_LocalScale: {x: 1.07640386, y: 1.07640386, z: 1.07640386}
   m_Children: []
@@ -13134,6 +13134,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1201122408}
+  - 114: {fileID: 1201122409}
   m_Layer: 0
   m_Name: EnemyTV
   m_TagString: Untagged
@@ -13160,6 +13161,17 @@ Transform:
   - {fileID: 441830006}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &1201122409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1201122407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a66cdce087d85d458ea69e45c5b3833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1202690025
 GameObject:
   m_ObjectHideFlags: 0

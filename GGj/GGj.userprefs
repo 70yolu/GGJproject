@@ -1,13 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\EnemyTV_AntenaRotateSlow.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\EnemyTV_Destroy.js">
     <Files>
-      <File FileName="Assets\Script\EnemyTV_AntenaRotate.js" Line="11" Column="1" />
-      <File FileName="Assets\Script\EnemyTV_FootMove.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\EnemyTV_FootMove2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\EnemyTV_FootRatate.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\EnemyTV_AntenaRotateFast.js" Line="9" Column="36" />
-      <File FileName="Assets\Script\EnemyTV_AntenaRotateSlow.js" Line="9" Column="36" />
+      <File FileName="Assets\Script\EnemyTV_Destroy.js" Line="1" Column="1" />
+      <File FileName="Assets\someya\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
